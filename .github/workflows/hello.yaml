@@ -1,0 +1,23 @@
+name: helloooo
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  hey:
+    name: hey there!
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: say hello
+        run: echo hello world!
+

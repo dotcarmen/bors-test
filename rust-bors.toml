@@ -1,6 +1,6 @@
 # Maximum duration of CI workflows before they are considered timed out.
 # (Required)
-timeout = 3600
+timeout = 30
 
 # Whether to enable the merge queue or not.
 # When enabled, approved PRs will be automatically merged.
