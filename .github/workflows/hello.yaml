@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+      - automation/bors/auto
+      - automation/bors/try
 
 permissions:
   contents: read
